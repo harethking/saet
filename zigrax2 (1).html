@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zigrax Engineering</title>
+<style id="css">
+:root{--bg:#f6f7f9;--card:#fff;--tx:#14202b;--mut:#5b6b7a;--pri:#0b5cad;--acc:#f0a30a;--bd:#e1e6eb;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1419;--card:#17202a;--tx:#e8eef3;--mut:#93a3b3;--pri:#4da3ff;--acc:#f5b83d;--bd:#26323e}}
+:root[data-theme="dark"]{--bg:#0e1419;--card:#17202a;--tx:#e8eef3;--mut:#93a3b3;--pri:#4da3ff;--acc:#f5b83d;--bd:#26323e}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--tx);font-family:"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.8}
+.w{max-width:1000px;margin:auto;padding:0 18px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--bd);z-index:5}
+header .w{display:flex;justify-content:space-between;align-items:center;padding-top:12px;padding-bottom:12px}
+.logo{font-weight:800;font-size:20px}.logo b{color:var(--acc)}
+.btn{background:var(--pri);color:#fff;border:0;border-radius:10px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.o{background:transparent;color:var(--pri);border:2px solid var(--pri)}.btn.r{background:#c0392b}
+.hero{padding:52px 0 34px;text-align:center}.hero h1{font-size:clamp(26px,5vw,40px);margin:0 0 12px;line-height:1.4}
+.hero p{color:var(--mut);max-width:620px;margin:0 auto 22px;font-size:17px}.hero .btn{margin:4px}
+section{padding:30px 0}h2{font-size:24px;margin:0 0 6px}.sub{color:var(--mut);margin:0 0 20px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px}
+.c h3{margin:6px 0;font-size:17px}.c p{margin:0;color:var(--mut);font-size:15px}.ic{font-size:28px}
+.n{display:inline-flex;width:34px;height:34px;border-radius:50%;background:var(--acc);color:#111;font-weight:800;align-items:center;justify-content:center}
+details{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px 16px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700}details p{color:var(--mut);margin:8px 0 0}
+form,.adm{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;display:grid;gap:12px}
+label{font-weight:700;font-size:14px}
+input,select,textarea{width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit;margin-top:4px}
+input:disabled{opacity:.5}
+.err{color:#d33;font-size:13px;display:none}
+.trust{background:var(--card);border:1px solid var(--acc);border-radius:14px;padding:16px;margin-top:14px}
+.adm{margin:20px 0;border:2px solid var(--pri)}.row{display:grid;grid-template-columns:60px 1fr 2fr auto;gap:6px;align-items:start}
+.row.f{grid-template-columns:1fr 2fr auto}.badge{background:var(--acc);color:#111;border-radius:20px;padding:2px 12px;font-size:13px;font-weight:700}
+footer{text-align:center;color:var(--mut);padding:26px 0;font-size:14px;border-top:1px solid var(--bd)}
+footer a{color:var(--mut);cursor:pointer}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="application/json" id="state">{"brand":"Zigrax Engineering","title":"هندسة تُبنى على الثقة قبل الدفع","sub":"نشرح لك الخدمة، نحدد السعر والمدة بوضوح، وتشوف نموذج من العمل قبل ما تدفع الدفعة الكاملة. بدون مفاجآت.","wa":"9647801691548","services":[{"i":"📐","t":"مخططات معمارية","d":"مخططات وواجهات للمنازل والمجمعات بحسب متطلباتك."},{"i":"🏗️","t":"تصميم إنشائي","d":"تصميم الأسس والأعمدة والسقوف مع مخططات تنفيذية."},{"i":"📊","t":"جداول كميات ومناقصات","d":"حساب الكميات (BOQ) وتقدير التكاليف بتفاصيل واضحة."},{"i":"🎨","t":"تصور ثلاثي الأبعاد","d":"مجسمات وواجهات واقعية تشوف مشروعك قبل التنفيذ."},{"i":"🦺","t":"إشراف هندسي","d":"متابعة التنفيذ في الموقع وتقارير دورية."}],"faq":[{"q":"هل لازم أدفع كل المبلغ قبل البدء؟","a":"لا، نبدأ بدفعة أولى صغيرة والباقي بعد معاينتك للعمل."},{"q":"شنو إذا ما عجبني العمل؟","a":"نعدّل بحسب ملاحظاتك ضمن النطاق المتفق عليه."},{"q":"كيف أتأكد من جدية الشغل وأنا أونلاين؟","a":"تشوف نموذجاً أولياً، وتتواصل معنا بكل المراحل، وتدفع على مراحل."}]}</script>
+<script id="src">
+(function(){
+var st=JSON.parse(document.getElementById("state").textContent),role=0,open=false;
+var STEPS=[["ترسل طلبك","تعبي النموذج ويوصلنا مباشرة."],["نحدد الاتفاق","النطاق والسعر والمدة كتابياً قبل البدء."],["دفعة صغيرة ومعاينة","دفعة أولى فقط ونموذج أولي للعمل."],["تعديل واعتماد","ما تدفع الباقي إلا بعد رضاك."],["تسليم الملفات","ملفات نهائية كاملة بصيغ قابلة للتعديل."]];
+var GUA=["✅ دفع على مراحل","✅ معاينة قبل التسليم","✅ سعر ومدة مكتوبان","✅ سرية مشروعك"];
+function $(i){return document.getElementById(i)}
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function build(s){
+ var css=$("css").textContent,js=$("src").textContent;
+ return "<!DOCTYPE html>\n<html lang=\"ar\" dir=\"rtl\">\n<head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><title>"+esc(s.brand)+"</title><style id=\"css\">"+css+"</style></head>\n<body><div id=\"root\"></div>\n<script type=\"application/json\" id=\"state\">"+JSON.stringify(s).replace(/</g,"\\u003c")+"</"+"script>\n<script id=\"src\">"+js+"</"+"script></body></html>";
+}
+function render(){
+ var b=st.brand.split(" "),h=[];
+ h.push('<header><div class="w"><div class="logo">'+esc(b[0].toUpperCase())+" <b>"+esc(b.slice(1).join(" "))+'</b></div><a class="btn" href="#order">اطلب خدمتك</a></div></header><div class="w">');
+ h.push('<div class="hero"><h1>'+esc(st.title)+'</h1><p>'+esc(st.sub)+'</p><a class="btn" href="#order">ابدأ طلبك</a><a class="btn o" href="#how">كيف نشتغل؟</a></div>');
+ h.push('<div id="adm"></div>');
+ h.push('<section><h2>خدماتنا</h2><p class="sub">اختر الخدمة ثم أرسل طلبك.</p><div class="g">'+st.services.map(function(x){return '<div class="c"><div class="ic">'+esc(x.i)+'</div><h3>'+esc(x.t)+'</h3><p>'+esc(x.d)+'</p></div>'}).join("")+'</div></section>');
+ h.push('<section id="how"><h2>كيف نشتغل؟</h2><p class="sub">خطوات واضحة وتدري وين وصل طلبك.</p><div class="g">'+STEPS.map(function(x,i){return '<div class="c"><span class="n">'+(i+1)+'</span><h3>'+x[0]+'</h3><p>'+x[1]+'</p></div>'}).join("")+'</div></section>');
+ h.push('<section><h2>ضماناتنا لك</h2><div class="g">'+GUA.map(function(x){return '<div class="c"><h3>'+x+'</h3></div>'}).join("")+'</div><div class="trust">💬 ما ترتاح لنقطة؟ اسأل قبل الدفع بأي وقت، وإذا ما اتفقنا ما يترتب عليك شي.</div></section>');
+ h.push('<section id="order"><h2>اطلب خدمتك</h2><p class="sub">عبي البيانات ويفتح لك واتساب برسالة جاهزة.</p><form id="f" novalidate><div><label>الاسم</label><input id="nm"><div class="err" id="e1">اكتب اسمك</div></div><div><label>رقم الهاتف</label><input id="ph" type="tel" dir="ltr" placeholder="07XXXXXXXXX"><div class="err" id="e2">رقم غير صحيح</div></div><div><label>الخدمة</label><select id="sv"><option value="">اختر...</option>'+st.services.map(function(x){return '<option>'+esc(x.t)+'</option>'}).join("")+'<option>أخرى</option></select><div class="err" id="e3">اختر الخدمة</div></div><div><label>التفاصيل</label><textarea id="dt" rows="4"></textarea></div><button class="btn" type="submit">إرسال الطلب عبر واتساب</button></form></section>');
+ h.push('<section><h2>أسئلة شائعة</h2>'+st.faq.map(function(x){return '<details><summary>'+esc(x.q)+'</summary><p>'+esc(x.a)+'</p></details>'}).join("")+'</section></div>');
+ h.push('<footer>© '+esc(st.brand)+' · <a id="lg">دخول الإدارة</a></footer>');
+ $("root").innerHTML=h.join("");
+ $("f").addEventListener("submit",function(ev){
+  ev.preventDefault();
+  var nm=$("nm").value.trim(),ph=$("ph").value.replace(/[\s-]/g,""),sv=$("sv").value,dt=$("dt").value.trim();
+  var a=nm.length>1,p=/^(\+?964|0)?7\d{9}$/.test(ph),c=!!sv;
+  $("e1").style.display=a?"none":"block";$("e2").style.display=p?"none":"block";$("e3").style.display=c?"none":"block";
+  if(!(a&&p&&c))return;
+  var m="طلب جديد - "+st.brand+"\nالاسم: "+nm+"\nالهاتف: "+ph+"\nالخدمة: "+sv+"\nالتفاصيل: "+(dt||"-");
+  window.open("https://wa.me/"+st.wa+"?text="+encodeURIComponent(m),"_blank");
+ });
+ $("lg").onclick=function(){
+  if(role<1){alert("الدخول للإدارة فقط: افتح الرابط وأنت مسجّل بحساب claude.ai صاحب الموقع أو المشرف.");return}
+  open=!open;panel();
+ };
+ if(open)panel();
+}
+function panel(){
+ var el=$("adm"),d=JSON.parse(JSON.stringify(st));el.innerHTML="";
+ if(!open||role<1)return;
+ var own=role==2;
+ function draw(msg){
+  function L(k,f,fl){return d[k].map(function(x,i){return '<div class="row'+(k=="faq"?" f":"")+'">'+f.map(function(q){return '<input data-l="'+k+'" data-i="'+i+'" data-f="'+q+'" value="'+esc(x[q])+'">'}).join("")+'<button class="btn r" data-a="del" data-l="'+k+'" data-i="'+i+'">✕</button></div>'}).join("")}
+  el.className="adm";
+  el.innerHTML='<div><span class="badge">'+(own?"الرتبة: مالك (صلاحيات كاملة)":"الرتبة: مشرف (الخدمات والأسئلة فقط)")+'</span></div>'+
+  '<label>اسم الموقع</label><input data-k="brand" value="'+esc(d.brand)+'"'+(own?"":" disabled")+'>'+
+  '<label>العنوان الرئيسي</label><input data-k="title" value="'+esc(d.title)+'">'+
+  '<label>الوصف</label><textarea data-k="sub" rows="3">'+esc(d.sub)+'</textarea>'+
+  '<label>رقم واتساب (964 بدون صفر)</label><input dir="ltr" data-k="wa" value="'+esc(d.wa)+'"'+(own?"":" disabled")+'>'+
+  '<label>الخدمات (أيقونة / اسم / وصف)</label>'+L("services",["i","t","d"])+'<button class="btn o" data-a="add" data-l="services">+ خدمة</button>'+
+  '<label>الأسئلة الشائعة</label>'+L("faq",["q","a"])+'<button class="btn o" data-a="add" data-l="faq">+ سؤال</button>'+
+  '<button class="btn" data-a="save">حفظ ونشر</button><div>'+(msg||"")+'</div>';
+ }
+ draw();
+ el.oninput=function(e){var t=e.target.dataset;if(t.k)d[t.k]=e.target.value;else if(t.l)d[t.l][t.i][t.f]=e.target.value};
+ el.onclick=async function(e){
+  var t=e.target.dataset;if(!t.a)return;
+  if(t.a=="del"){d[t.l].splice(+t.i,1);draw()}
+  else if(t.a=="add"){d[t.l].push(t.l=="faq"?{q:"",a:""}:{i:"🔧",t:"",d:""});draw()}
+  else if(t.a=="save"){
+   if(!own){d.brand=st.brand;d.wa=st.wa}
+   try{draw("جاري النشر...");var a=await claude.use("artifact");if(!a){draw("النشر غير متاح");return}await a.publish(build(d))}catch(x){draw("تعذّر الحفظ: "+esc(x&&x.message||x))}
+  }
+ };
+}
+render();
+(async function(){
+ try{
+  if(!window.claude||!claude.use)return;
+  var u=await claude.use("user");
+  if(u){role=u.isOwner()?2:(u.canEdit()?1:0)}
+ }catch(e){}
+})();
+})();
+</script>
+</body>
+</html>
